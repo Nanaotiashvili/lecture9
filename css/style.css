@@ -1,0 +1,61 @@
+.container {
+    width: 1440px;
+    background-color:white;
+    margin: 0, auto;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+
+}
+img {
+    width: 33px;
+    height: 42px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+nav {
+    display: flex;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    list-style:none ;
+}
+li a {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section {
+    background-image: url(../images/greece.png);
+    background-size: cover;
+    width: 1440px;
+    height: 606px;
+}
+.discover {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 606px;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h2 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
